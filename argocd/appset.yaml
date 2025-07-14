@@ -22,7 +22,7 @@ spec:
       project: kargo-helm
       source:
         path: charts/guestbook
-        repoURL: https://github.com/afzal442/kargo-helm.git
+        repoURL: https://github.com/cloud-hacks/kargo-helm.git
         helm:
           valueFiles:
           - "/env/{{path.basename}}/values.yaml"
